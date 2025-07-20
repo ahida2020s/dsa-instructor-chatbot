@@ -6,7 +6,6 @@ A Flask-based chatbot that uses Gemini API to answer Data Structures and Algorit
 - Interactive chatbot interface built with Flask + HTML.
 - Answers only DSA-related questions (and replies rudely to irrelevant questions ).
 - Uses Google's Generative AI (Gemini 1.5 Flash)model.
-- Lightweight and beginner-friendly project.
 
 ### 📂 Folder Structure
 |── app.py # Main Flask application
