@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: dsa-chatbot
+    runtime: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: API_KEY
+        value: your_api_key_here
