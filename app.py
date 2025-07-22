@@ -23,7 +23,7 @@ model = genai.GenerativeModel(
 )
 
 app = Flask(__name__)
-CORS(app)  # ✅ Enable CORS for all routes
+CORS(app)  
 
 @app.route("/")
 def index():
